@@ -1,4 +1,4 @@
-# Discord Landing Page – Mobile First
+# Landing Page Project – Mobile First
 
 ![Preview](./preview.png)
 
@@ -34,6 +34,6 @@ Recriação **não oficial** da landing page do Discord, criada **apenas para es
 
 💡 Observações / Notes
 
-Não é oficial do Discord
-Criado para estudo e portfólio
-Foco em responsividade e boas práticas CSS
+- Não é oficial do Discord
+- Criado para estudo e portfólio
+- Foco em responsividade e boas práticas CSS
