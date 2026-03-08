@@ -1,0 +1,445 @@
+@font-face {
+    font-family: "luckiest";
+    src: url(../fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+    font-weight: 100 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 26.75rem;
+    aspect-ratio: 26.75 / 31.562;
+    overflow: hidden;
+    margin: 0 auto 1.5rem auto;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.hero h1 {
+    padding-top: 5%;
+    padding-right: 60%;
+    font-family: "luckiest", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+.hero p {
+    padding-left: 40%;
+    font-family: "luckiest", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    gap: 1rem;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.3rem;
+    border-radius: 50px;
+    border: 3px solid #23272A;
+    background-color: #FFFFFF;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    border-color: #1E90FF;
+}
+
+.container-cell-phone {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container-meeting,
+.container-mobiles {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container-technology {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container-main-img {
+    width: 100%;
+    max-width: 23.687rem;
+    aspect-ratio: 23.687 / 15.75;
+    margin: 0 auto;
+}
+
+.container-text-main {
+    width: 100%;
+    max-width: 23.687rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.format-text-h2 {
+    font-family: "open-sans", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: #23272A;
+    padding: 0 1rem 1rem 1rem;
+    text-align: center;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+.format-text-p {
+    font-family: "open-sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: #23272A;
+    padding: 0 1rem 1rem 1rem;
+    text-align: justify;
+}
+
+.format-text-h2-sec,
+.text-footer {
+    font-family: "luckiest", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.3;
+    color: #23272A;
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.format-text-p-sec {
+    font-family: "open-sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: #23272A;
+    padding: 0 1rem 0 1rem;
+}
+
+.text-footer {
+    width: 100%;
+    height: 8.75rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #23272A;
+}
+
+@media (min-width: 48rem) {
+    .hero {
+        width: 100%;
+        max-width: 63.937rem;
+        aspect-ratio: 63.937 / 28.687;
+        margin: 0 auto 1.3rem auto;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        padding-top: 2%;
+        padding-right: 60%;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        padding-left: 40%;
+    }
+
+    .container-buttons {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 3rem;
+        left: 50%;
+        bottom: 10%;
+        transform: translateX(-50%);
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 0.4rem;
+        
+    }
+
+    .container-main-img{
+        width: 90%;
+        max-width: 37.93rem;
+        aspect-ratio: 37.93 / 24.62;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .container-meeting, .container-mobiles, .container-technology, .container-cell-phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0 1rem 1.3rem 1rem;
+        margin: 0;
+    }
+
+    .container-main-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container-text-main{
+        padding: 1rem 0 1rem 0;
+    }
+
+    .format-text-h2-sec{
+        font-size: 1.8rem;
+    }
+    .format-text-p-sec, .format-text-p{
+        font-size: 1.4rem;
+    }
+
+    .format-text-h2{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 64rem) {
+    .hero{
+        width: 100%;
+        max-width: 79.937rem;
+        aspect-ratio: 79.937 / 28.687;
+        margin: 0 auto 1.5rem auto;
+    }
+    .hero h1{
+        font-size: 2rem;
+        padding-top: 2%;
+        padding-right: 50%;
+    }
+    .hero p {
+        font-size: 1.6rem;
+        padding-left: 55%;
+    }
+
+    .btn{
+        font-size: 1.6rem;
+        padding: 0.7rem;
+    }
+    
+    .container-main-img{
+        width: 90%;
+        max-width: 36rem;
+        aspect-ratio: 36 / 24.62;
+        margin: 0;
+        padding: 1rem;
+    }
+    .container-text-main{
+        padding: 1.6rem 1rem 1rem 0;
+        margin: 0;
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .container-meeting, .container-mobiles, .container-cell-phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem 0 1rem;
+        gap: 0;
+    }
+    
+    .format-text-h2-sec{
+        font-size: 2rem;
+    }
+
+    .format-text-p-sec, .format-text-p{
+        font-size: 1.2rem;
+    }
+
+    .text-footer{
+        margin-top: 1.4rem;
+    }
+
+    .format-text-h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 80rem) {
+    .hero{
+        width: 100%;
+        max-width: 89.937rem;
+        aspect-ratio: 89.937 / 28.687;
+    }
+
+     .hero h1{
+        font-size: 2.2rem;
+        padding-top: 2%;
+        padding-right: 45%;
+    }
+    .hero p {
+        font-size: 1.8rem;
+        padding-left: 60%;
+        padding-top: 2%;
+    }
+
+    .btn{
+        font-size: 1.8rem;
+        padding: 0.5rem;
+    }
+
+    .container-meeting, .container-mobiles, .container-cell-phone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-main-img{
+        width: 90%;
+        max-width: 40.937rem;
+        aspect-ratio: 40.937 / 26;
+        margin: 0;
+    }
+
+    .container-desktop-img{
+        width: 90%;
+        max-width: 49rem;
+        aspect-ratio: 49 / 31.75;
+    }
+
+    .container-text-main{
+        margin: 0;
+        max-width: 60rem;
+    }
+
+    .format-text-h2-sec{
+        font-size: 2.2rem;
+    }
+
+    .format-text-p-sec, .format-text-p{
+        font-size: 1.5rem;
+    }
+
+    .format-text-h2{
+        font-size: 1.8rem;
+    }
+
+    .container-technology{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        max-width: 89.937rem;
+        height: auto;
+    }
+
+    .container-desktop-main{
+        width: 100%;
+        max-width: 50.125rem;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .container-desktop-main h2{
+        text-align: center;
+    }
+
+    .container-desktop-main p{
+        text-align: justify;
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 90rem) {
+    .format-text-h2{
+        font-size: 2rem;
+    }
+
+    .format-text-p, .format-text-p-sec{
+        font-size: 1.6rem;
+    }
+
+    .format-text-h2-sec{
+        font-size: 2.5rem;
+    }
+    
+    .container-meeting, .container-mobiles, .container-cell-phone{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0;
+    }
+}

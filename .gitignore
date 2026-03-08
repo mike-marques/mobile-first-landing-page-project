@@ -1,0 +1,11 @@
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp
+*.swp
+
+dist/
+build/

@@ -30,6 +30,8 @@ Recriação **não oficial** da landing page do Discord, criada **apenas para es
 | Tablet             | 768 – 1023px   |
 | Desktop            | 1024px+        |
 
+- This project uses fonts licensed under the Apache License 2.0.
+- This project uses fonts licensed under the SIL Open Font License (OFL).
 ---
 
 💡 Observações / Notes
@@ -37,3 +39,6 @@ Recriação **não oficial** da landing page do Discord, criada **apenas para es
 - Não é oficial do Discord
 - Criado para estudo e portfólio
 - Foco em responsividade e boas práticas CSS
+- Este projeto utiliza fontes licenciadas sob a Licença Apache 2.0.
+- Este projeto utiliza fontes licenciadas sob a SIL Open Font License (OFL).
+
