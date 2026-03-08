@@ -1,6 +1,6 @@
 # Landing Page Project – Mobile First
 
-![Preview](./preview.png)
+![Preview](https://mike-marques.github.io/mobile-first-landing-page-project/)
 
 ---
 
